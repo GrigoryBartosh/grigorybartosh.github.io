@@ -48,11 +48,25 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link" href="#about">
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
+            </a>
+          </li>
+
+          <!-- Hardcoded publications -->
+          <li class="nav-item">
+            <a class="nav-link" href="#selected-publications">
+              Publications
+            </a>
+          </li>
+
+          <!-- Hardcoded cv -->
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank">
+              CV
             </a>
           </li>
 
