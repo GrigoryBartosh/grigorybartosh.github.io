@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student at the University of Amsterdam
+subtitle: Ph.D. Candidate in ML at UvA
 
 profile:
   align: left
